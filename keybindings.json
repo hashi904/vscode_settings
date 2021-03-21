@@ -1,0 +1,78 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "shift+cmd+[Semicolon]",
+      "command": "workbench.action.openRawDefaultSettings"
+  },
+  {
+      "key": "cmd+[Semicolon]",
+      "command": "workbench.action.zoomIn"
+  },
+  {
+      "key": "cmd+numpad_add",
+      "command": "-workbench.action.zoomIn"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "copyRelativeFilePath"
+  },
+  {
+      "key": "shift+alt+cmd+c",
+      "command": "-copyRelativeFilePath",
+      "when": "!editorFocus"
+  },
+  {
+      "key": "ctrl+t",
+      "command": "workbench.action.terminal.focus"
+  },
+  {
+      "key": "ctrl+e",
+      "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+      "key": "ctrl+v",
+      "command": "workbench.action.terminal.split",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "ctrl+shift+5",
+      "command": "-workbench.action.terminal.split",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "ctrl+w ctrl+e",
+      "command": "cursorLineEnd",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "ctrl+e",
+      "command": "-cursorLineEnd",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "ctrl+cmd+down",
+      "command": "workbench.action.decreaseViewSize"
+  },
+  {
+      "key": "ctrl+cmd+up",
+      "command": "workbench.action.increaseViewSize"
+  },
+  {
+      "key": "shift+cmd+a",
+      "command": "copyFilePath"
+  },
+  {
+      "key": "alt+cmd+c",
+      "command": "-copyFilePath",
+      "when": "!editorFocus"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+  },
+  {
+      "key": "shift+cmd+[Quote]",
+      "command": "workbench.action.toggleMaximizedPanel"
+  }
+]
